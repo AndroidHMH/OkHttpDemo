@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.company.okhttpdemo.MainActivity">
+
+    <Button
+        android:id="@+id/doGet_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送get请求" />
+
+    <Button
+        android:id="@+id/doGet_tong_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送同步get请求" />
+
+    <Button
+        android:id="@+id/doGet_can_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送带参get请求" />
+
+    <Button
+        android:id="@+id/doGet_head_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送带请求头的get请求" />
+
+    <Button
+        android:id="@+id/doPost_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送post请求" />
+
+    <Button
+        android:id="@+id/doPost_tong_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送同步post请求" />
+
+    <Button
+        android:id="@+id/doPost_can_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送带参post请求" />
+
+    <Button
+        android:id="@+id/doPost_head_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送带请求头的post请求" />
+
+</LinearLayout>
